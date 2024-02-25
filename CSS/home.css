@@ -1,0 +1,230 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.card-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 100px;  
+box-shadow: 20px 20px 60px black; 
+margin-bottom: 5rem;  
+background-color: #465767;  
+color: #fff;     
+}
+.card{
+width: 250px;
+background-color: #003d39;
+border-radius: 10px;
+overflow:hidden;
+box-shadow: 0px 2px 4px rgba(70, 63, 63, 0.2);   
+margin: 20px;    
+box-shadow: 20px 20px 60px black;      
+}
+.card img{
+width: 100%;
+height: 300px;
+border: 1px solid rgb(0, 0, 0);
+margin-bottom: 1rem;
+}
+.btn{
+  background: #d80000;
+  padding: 10px 50px;
+  border: none;
+  outline:none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 3rem;
+  display: block;
+  margin: 20px auto;
+}
+.card{
+font-size: 60%;
+border: solid #000000b9 3px;
+margin-bottom: 3rem;
+margin-top: 3rem;
+
+}
+
+.card h1{
+  text-align: center;
+}
+.card p {
+  text-align: center;
+  
+}
+.nav1 {
+  background-color: #004944;
+  margin-top: 1%;
+  padding-bottom: 5%;
+  box-shadow: 10px 2px 60px #6e9ea3;      
+  display: flex;
+  padding: 0.8rem 0 1rem; /* Removed padding on the left to avoid overlapping */
+  height: 40px;
+  width: auto; /* Allow width to adjust based on content */
+  justify-content: space-evenly;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 20%; /* Adjusted positioning */
+}
+
+.nav-item {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  background: linear-gradient(#004f99);
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  border-radius: 20%;
+}
+
+.nav-item img {
+  position: relative;
+  left: 30rem; /* Adjusted positioning */
+}
+
+
+   .quote{
+    height: 6rem;
+    width: 60%;
+    font-size: larger;
+    margin-bottom: 3rem;
+    font-family: 'Caveat', cursive;
+   }
+   
+  .searchbar{ 
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+  
+   
+    }
+
+ 
+.searchbar input {
+  border: 1px solid black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.logo {
+  position: relative;
+  margin-left: 20rem;
+}
+.logo img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+ 
+}
+.logo a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  
+}
+
+.name{
+  position: relative;
+  left: 15rem;
+}
+
+.copywrite{
+  display: flex;
+  background-color: #637baa;
+  height: 320px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.copywrite1{
+  width:20%;
+ margin-top: 2rem;
+  
+}
+.column{
+  margin-top: 5rem;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  
+}
+.copywrite2{
+  text-align: left;
+  font-size: 1.5rem;
+}
+p a {
+ line-height: 1rem;
+ text-decoration: none;
+ color: black;
+}
+.rtc{
+  
+  }
+ .searchname{
+    display: flex;
+    position: relative;
+    right: 7%;
+
+    width: 30%;
+    height: 55px;
+    display: flex;
+    border: #4e4e4e;
+  }
+.rtc1{
+padding-top: 0.5rem;
+color: #004944;
+margin-right: 3rem;
+}
+.rtc2{
+ margin-left: 7rem;
+ 
+ 
+ }
+ .rtc3{
+ margin-bottom: 0.01rem;
+ margin-top: 0.1rem;
+ height: 3rem;
+ width: 3rem;
+ }
+ .cp-text{ 
+
+  background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 3rem;
+    padding-top: 1rem;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+button{
+  background: #d80000;
+  padding: 10px 1rem;
+  border: none;
+  outline:none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+a{
+  font-size:large;
+}
